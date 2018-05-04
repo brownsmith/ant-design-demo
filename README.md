@@ -5,7 +5,6 @@ Bootstrapped using [Create React App](https://github.com/facebook/create-react-a
 
 ### To run the demo
 ````
-cd ant-design-demo/
 npm install
 npm start
 ````
