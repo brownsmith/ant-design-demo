@@ -1,2 +1,11 @@
-# ant-design-demo
-Spike to assess Ant Design, a React based UI framework
+# Ant-Design demo
+Spike to assess [Ant Design](http://ant.design/docs/react/introduce), a React based UI framework
+
+Bootstrapped using [Create React App](https://github.com/facebook/create-react-app)
+
+### To run the demo
+````
+cd ant-design-demo/
+npm install
+npm start
+````
