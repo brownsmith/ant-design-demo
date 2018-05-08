@@ -3,7 +3,7 @@ import './App.css';
 import { Menu, Layout, Row, Col, Button, Divider, Table, Icon } from 'antd';
 const SubMenu = Menu.SubMenu;
 const MenuItemGroup = Menu.ItemGroup;
-const { Header, Footer, Sider, Content } = Layout;
+const { Footer } = Layout;
 
 
 class App extends Component {
@@ -21,7 +21,7 @@ class App extends Component {
       title: 'Name',
       dataIndex: 'name',
       key: 'name',
-      render: text => <a href="javascript:;">{text}</a>,
+      // render: text => <a href="javascript:;">{text}</a>,
     }, {
       title: 'Age',
       dataIndex: 'age',
@@ -35,11 +35,11 @@ class App extends Component {
       key: 'action',
       render: (text, record) => (
         <span>
-          <a href="javascript:;">Action 一 {record.name}</a>
+          <a href="/">Action 一 {record.name}</a>
           <Divider type="vertical" />
-          <a href="javascript:;">Delete</a>
+          <a href="/">Delete</a>
           <Divider type="vertical" />
-          <a href="javascript:;" className="ant-dropdown-link">
+          <a href="/" className="ant-dropdown-link">
             More actions <Icon type="down" />
           </a>
         </span>
